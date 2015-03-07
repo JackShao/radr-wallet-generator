@@ -1,14 +1,14 @@
 {
-  "name": "ripple-wallet-generator",
-  "version": "1.0.2",
-  "description": "A node.js library for generating a Ripple wallet.",
+  "name": "radr-wallet-generator",
+  "version": "0.0.1",
+  "description": "A node.js library for generating a Radr wallet.",
   "main": "lib/wallet.js",
   "scripts": {
     "test": "mocha -R spec test/wallet_generator.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevenzeiler/ripple-wallet.git"
+    "url": "https://github.com/radr/radr-wallet-generator.git"
   },
   "keywords": [
     "ripple",
@@ -19,7 +19,9 @@
   "author": "stevenzeiler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stevenzeiler/ripple-wallet/issues"
+    "url": "https://github.com/radr/radr-wallet-generator/issues"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
 }
